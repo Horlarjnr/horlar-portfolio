@@ -25,7 +25,7 @@ export default function App() {
         <Projects />
 
         <section id="about" className="scroll-mt-20 bg-white pb-20 sm:pb-24">
-          <Container className="grid gap-8 lg:grid-cols-[1.4fr_1fr] lg:items-start">
+          <Container className="grid grid-cols-1 gap-8 lg:grid-cols-[1.4fr_1fr] lg:items-start">
             <Reveal>
               <About />
             </Reveal>
@@ -36,7 +36,7 @@ export default function App() {
         </section>
 
         <section className="bg-white pb-20 sm:pb-24">
-          <Container className="grid gap-8 lg:grid-cols-[1.15fr_1fr] lg:items-start">
+          <Container className="grid grid-cols-1 gap-8 lg:grid-cols-[1.15fr_1fr] lg:items-start">
             <Reveal>
               <Skills />
             </Reveal>
@@ -47,7 +47,7 @@ export default function App() {
         </section>
 
         <section className="bg-white pb-20 sm:pb-24">
-          <Container className="grid gap-8 md:grid-cols-2">
+          <Container className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <Reveal>
               <Education />
             </Reveal>
